@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5836740980529530235}
   - component: {fileID: 4105046505636656524}
   - component: {fileID: 8186113186758852487}
+  - component: {fileID: 2819776975999736357}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Projectile
@@ -125,3 +126,15 @@ MonoBehaviour:
   playerTransform: {fileID: 0}
   player: {fileID: 0}
   maxDistanceDelta: 5.41
+--- !u!114 &2819776975999736357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077970218550532953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f18f50877eac849a46b39abddc5895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

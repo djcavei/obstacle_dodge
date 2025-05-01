@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class FlyToPlayer : MonoBehaviour
@@ -6,6 +7,11 @@ public class FlyToPlayer : MonoBehaviour
     [SerializeField] private Transform playerTransform;
     [SerializeField] private GameObject player;
     [SerializeField] private float maxDistanceDelta = 10f;
+
+    private void Awake()
+    {
+        gameObject.SetActive(false);
+    }
 
     private void Start()
     {
